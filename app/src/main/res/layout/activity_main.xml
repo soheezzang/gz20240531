@@ -14,10 +14,14 @@
         android:id="@+id/list_item"
         android:layout_width="411dp"
         android:layout_height="531dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="101dp" />
+        android:layout_marginTop="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
     <LinearLayout
+        android:id="@+id/linearLayout5"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
@@ -62,6 +66,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="32dp"

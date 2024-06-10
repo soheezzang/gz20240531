@@ -8,4 +8,5 @@ class InstaModel(
     val date: String,
     var isLiked: Boolean,
     var isBookMarked: Boolean,
+    likeCnt: Int,
 )
